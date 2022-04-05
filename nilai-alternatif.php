@@ -68,10 +68,7 @@ $nilaiAlternatif = mysqli_query($conn, "SELECT * FROM nilai_alternatif");
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <p>***Nilai 1 s/d 5 dan Keterangan antara sangat baik sampai dengan sangat kurang baik diperoleh dari perusahaan.</p>
                 </div>
             </div>
         </div>

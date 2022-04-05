@@ -68,6 +68,7 @@ $kriteria = mysqli_query($conn, "SELECT * FROM kriteria");
                             </div>
                         </div>
                     </div>
+                                <p>**Bobot kriteria dan nilai bobot kriterianya diperoleh dan ditentukan oleh perusahaan.</p>
                                 <p>***Bobot kriteria <b>Tingkat Harga</b> memiliki nilai minus (-), dikarenakan jika tingkat harga rendah maka nilai akan semakin tinggi.</p>
                 </div>
             </div>

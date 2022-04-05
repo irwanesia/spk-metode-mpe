@@ -28,13 +28,18 @@ require('templates/navbar.php');
                                         </nav>
                                         <hr>
                                         <div class="row align-items-center justify-content-center">
-                                            <div class="col-auto">
+                                            <div class="col-auto p-5">
                                                 <i class="fas fa-globe text-primary f-48"></i>
                                             </div>
                                             <div class="col justify-content-center">
                                                 <h3>Tentang Aplikasi</h3>
-                                                <p>Aplikasi atau Sistem Pendukung Keputusan (SPK) ini digunakan untuk membantu manager perusahaan atau pihak yang mempunyai wewenang dalam pengambilan keputusan. Contoh dalam kasus ini yaitu proses penentuan pemilihan vendor CCTV yang ada pada PT AMG (Api Metra Graha), dimana dalam proses penentuan pemilihan vendor CCTV digunakan sistem SPK tersebut.</p>
-                                                <p>Metode yang digunakan pada SPK ini yaitu metode <i>Composite Performance Index</i> (CPI), dimana metode ini merupakan indeks gabungan (<i>Composite Index</i>) yang dapat digunakan untuk menentukan penilaian atau peringkat dari berbagai alternatif berdasarkan beberapa kriteria. Metode CPI menggunakan cara pemecahan masalah dengan sistem <i>Multiple Criteria Decision Making</i> (MCDM) yang menentukan urutan atau prioritas dalam analisis multikriteria. Metode ini mentranformasikan skala yang berbeda menjadi nilai yang seragam sehingga diperoleh nilai alternatif yang sudah terurut dan nilai tersebut akan digunakan dalam proses pengambilan keputusan</p>
+                                                <p>Aplikasi atau Sistem Pendukung Keputusan (SPK) ini digunakan untuk membantu manager perusahaan atau pihak yang mempunyai wewenang dalam pengambilan keputusan. Contoh dalam kasus ini yaitu proses kinerja supplier yang ada pada PT XYZ, dimana dalam proses penilaian kinerja supplier digunakan sistem SPK tersebut.</p>
+                                                <p>Metode yang digunakan pada SPK ini yaitu <i>Metode Perbandingan Eksponensial</i> (MPE), dimana merupakan salah satu metode untuk menentukan urutan prioritas alternatif keputusan dengan krtiteria jamak. Teknik ini digunakan sebagai pembantu bagi individu dalam pengambilan keputusan untuk menggunakan rancang bangun model yang telah terdefinisi dengan baik pada tahapan proses (Marimin dan Nurul, 2010:74). Dalam menggunakan metode perbandingan eksponensial, ada beberapa tahapan yang harus dilakukan, yaitu:
+                                                <br>1. Menyusun alternatif-alternatif keputusan yang akan dipilih 
+                                                <br>2. Menentukan kriteria atau perbandingan keriteria keputusan yang penting untuk dievaluasi 
+                                                <br>3. Menentukan tingkat kepentingan dari setiap kriteria keputusan atau pertimbangan kriteria
+                                                <br>4. Melakukan penilaian terhadap semua alternatif pada setiap kriteria
+                                                <br>5. Menentukan urutan prioritas keputusan didasarkan pada skor atau nilai total masing-masing alternative</p>
                                             </div>
                                         </div>
                                     </div>
